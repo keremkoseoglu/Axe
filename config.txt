@@ -1,0 +1,12 @@
+sapIP=172.21.105.214
+sapClient=500
+sapUser=KEREMK
+sapPass=bodrum
+sapSystem=00
+sapLang=TR
+sqlIP=172.21.107.48:1983
+sqlDatabase=AXATA_WM
+sqlUser=sap
+sqlPass=12345678
+intPeriod=120
+intExitAfterComplete=TRUE

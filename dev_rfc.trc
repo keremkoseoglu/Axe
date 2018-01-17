@@ -1,0 +1,105 @@
+
+**** ERROR file opened at 20080731 101741 GTB Daylight Time, SAP-REL 710,0,86 RFC-VER 3 954817 MT-SL
+T:1612 Error in program 'java': ======> Ad veya parola doðru deðil (lütfen tekrar girin)
+T:1612 Error in program 'java': <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20080822 135927 GTB Yaz Saati, SAP-REL 710,0,86 RFC-VER 3 954817 MT-SL
+T:3004 Error in program 'java': ======> Syntax error in program SAPLZAXATA_F                            .
+T:3004 Error in program 'java': <* RfcReceive [30] : returns 3:RFC_SYS_EXCEPTION
+T:3004 Error in program 'java': <* RfcCallReceive [30] : returns 3:RFC_SYS_EXCEPTION
+>TS> Fri Aug 22 14:00:21 2008
+T:3004 Error in program 'java': ======> Syntax error in program SAPLZAXATA_F                            .
+T:3004 Error in program 'java': <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+T:3004 Error in program 'java': <* RfcCallReceive [1] : returns 3:RFC_SYS_EXCEPTION
+>TS> Fri Aug 22 14:01:21 2008
+T:3004 Error in program 'java': ======> Syntax error in program SAPLZAXATA_F                            .
+T:3004 Error in program 'java': <* RfcReceive [2] : returns 3:RFC_SYS_EXCEPTION
+T:3004 Error in program 'java': <* RfcCallReceive [2] : returns 3:RFC_SYS_EXCEPTION
+>TS> Fri Aug 22 14:02:21 2008
+T:3004 Error in program 'java': ======> Syntax error in program SAPLZAXATA_F                            .
+T:3004 Error in program 'java': <* RfcReceive [3] : returns 3:RFC_SYS_EXCEPTION
+T:3004 Error in program 'java': <* RfcCallReceive [3] : returns 3:RFC_SYS_EXCEPTION
+>TS> Fri Aug 22 14:03:22 2008
+T:3004 Error in program 'java': ======> Syntax error in program SAPLZAXATA_F                            .
+T:3004 Error in program 'java': <* RfcReceive [4] : returns 3:RFC_SYS_EXCEPTION
+T:3004 Error in program 'java': <* RfcCallReceive [4] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20080826 172608 GTB Yaz Saati, SAP-REL 710,0,86 RFC-VER 3 954817 MT-SL
+T:2232 Error in program 'java': ======>      Malzeme 71003173 ve ÖB ADT için dönüþtürme faktörü yok                          
+T:2232 Error in program 'java': <* RfcReceive [2] : returns 3:RFC_SYS_EXCEPTION
+T:2232 Error in program 'java': <* RfcCallReceive [2] : returns 3:RFC_SYS_EXCEPTION
+>TS> Tue Aug 26 17:28:09 2008
+T:2232 Error in program 'java': ======>      Malzeme 71003173 ve ÖB ADT için dönüþtürme faktörü yok                          
+T:2232 Error in program 'java': <* RfcReceive [3] : returns 3:RFC_SYS_EXCEPTION
+T:2232 Error in program 'java': <* RfcCallReceive [3] : returns 3:RFC_SYS_EXCEPTION
+>TS> Tue Aug 26 17:30:08 2008
+T:2232 Error in program 'java': ======>      Malzeme 71003173 ve ÖB ADT için dönüþtürme faktörü yok                          
+T:2232 Error in program 'java': <* RfcReceive [4] : returns 3:RFC_SYS_EXCEPTION
+T:2232 Error in program 'java': <* RfcCallReceive [4] : returns 3:RFC_SYS_EXCEPTION
+>TS> Tue Aug 26 17:32:08 2008
+T:2232 Error in program 'java': ======>      Malzeme 71003173 ve ÖB ADT için dönüþtürme faktörü yok                          
+T:2232 Error in program 'java': <* RfcReceive [5] : returns 3:RFC_SYS_EXCEPTION
+T:2232 Error in program 'java': <* RfcCallReceive [5] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20080829 111917 GTB Yaz Saati, SAP-REL 710,0,86 RFC-VER 3 954817 MT-SL
+T:1176 Error in program 'java': ======> SAP_CMINIT3 : rc=20 > Connect to SAP gateway failed
+Connect_PM  GWHOST=172.21.105.201, GWSERV=sapgw01, SYSNR=01
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner '172.21.105.201:3301' not reached
+
+TIME        Fri Aug 29 11:19:17 2008
+RELEASE     710
+COMPONENT   NI (network interface)
+VERSION     39
+RC          -10
+MODULE      nixxi.cpp
+LINE        3139
+DETAIL      NiPConnect2: 172.21.105.201:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     1
+
+
+**** ERROR file opened at 20080902 134526 GTB Yaz Saati, SAP-REL 710,0,86 RFC-VER 3 954817 MT-SL
+T:472 Error in program 'java': ======> Ad veya parola doðru deðil (lütfen tekrar girin)
+>TS> Tue Sep 02 13:45:27 2008
+T:472 Error in program 'java': <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20080902 135816 GTB Yaz Saati, SAP-REL 710,0,86 RFC-VER 3 954817 MT-SL
+T:3684 Error in program 'java': ======> SAP_CMINIT3 : rc=20 > Connect to SAP gateway failed
+Connect_PM  GWHOST=172.21.105.205, GWSERV=sapgw01, SYSNR=01
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner '172.21.105.205:3301' not reached
+
+TIME        Tue Sep 02 13:58:16 2008
+RELEASE     710
+COMPONENT   NI (network interface)
+VERSION     39
+RC          -10
+MODULE      nixxi.cpp
+LINE        3139
+DETAIL      NiPConnect2: 172.21.105.205:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     1
+
+
+**** ERROR file opened at 20080909 100807 GTB Yaz Saati, SAP-REL 710,0,86 RFC-VER 3 954817 MT-SL
+T:1484 Error in program 'java': ======> Kullanýcý bloke edildi (yetkililere bildirin)
+T:1484 Error in program 'java': <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20090420 114213 GTB Daylight Time, SAP-REL 710,0,125 RFC-VER 3 1016365 MT-SL
+T:3564 Error in program 'java': ======> Kullanýcý bloke edildi (yetkililere bildirin)
+T:3564 Error in program 'java': <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20090420 114332 GTB Daylight Time, SAP-REL 710,0,125 RFC-VER 3 1016365 MT-SL
+T:4532 Error in program 'java': ======> Ad veya parola doðru deðil (lütfen tekrar girin)
+T:4532 Error in program 'java': <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20091111 142558 GTB Standard Time, SAP-REL 710,0,125 RFC-VER 3 1016365 MT-SL
+T:3032 Error in program 'java': ======> Ad veya parola doðru deðil (lütfen tekrar girin)
+T:3032 Error in program 'java': <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
